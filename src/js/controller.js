@@ -7,7 +7,6 @@ import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 import { MODAL_CLOSE_SEC } from './config.js';
 import 'core-js/stable'; // polyfilling for all
-import 'regenerator-runtime/runtime'; //polyfilling for async/await
 
 // https://forkify-api.herokuapp.com/v2
 console.log('Welcome !');
